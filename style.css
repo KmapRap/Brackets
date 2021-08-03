@@ -1,36 +1,24 @@
-#Apponcode.org {
+#app {
     width: 100%;
     height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
+    text-align: center;
+}
+
+#myCarousel {
     background-color: darkcyan;
 }
-
-#Gamesoncode.org {
-    width: 100%;
-    height: 800px;
-    background-color: darkgoldenrod;
+#myCarousel img {
+  height: 300px;
+    margin-top: 35px;
 }
-
-#Chatwithsolarandeinstienondialogflow {
-    width: 100%;
-    height: 800px;
-    background-color: linear-gradient(#00FFFF 0%, #12C96E 100%);
-}
-
-.line {
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
-}
-
-img:hover {
-    transform: scale(0.9);
-
-}
-img {
-    width: 900px;
-    
-}
-body {
-    text-align: center;
+.carousel-inner p {
+    color: cyan;
+    margin-top:35px;
+    margin-bottom:35px;
+    font-size: 30px;
 }
